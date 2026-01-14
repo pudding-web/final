@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenTown Community Garden | Programs & Services</title>
+  <meta name="description" content="Programs and services at GreenTown Community Garden: workshops, volunteer days, donation harvests, and plot requests." />
+  <link rel="canonical" href="services.html" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="GreenTown Community Garden home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        GreenTown Garden
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About our garden</a>
+        <a href="services.html" aria-current="page">Programs & services</a>
+        <a href="gallery.html">Gallery & video tour</a>
+        <a href="resources.html">Growing resources</a>
+        <a href="contact.html">Contact & signup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div class="surface">
+        <h1>Programs & services</h1>
+        <p class="lede">
+          Choose what fits your schedule—workshops, volunteer days, and plot options.
+        </p>
+
+        <h2>Popular programs</h2>
+        <ul class="list-simple">
+          <li>Beginner gardening workshop series</li>
+          <li>Composting demos and soil-building</li>
+          <li>Donation harvest and packing days</li>
+        </ul>
+      </div>
+
+      <figure>
+        <img
+          src="media/compost-bin.webp"
+          width="1200"
+          height="800"
+          loading="lazy"
+          alt="A compost bin with dried leaves and vegetable scraps beside a small garden shed."
+        />
+        <figcaption>Compost workshops teach you how to turn kitchen scraps into soil.</figcaption>
+      </figure>
+    </section>
+
+    <section class="surface" aria-labelledby="schedule">
+      <h2 id="schedule">Seasonal schedule (example)</h2>
+      <p class="note">
+        This is a sample “complex table” showing how a schedule can be organized with grouped headers and combined cells.
+      </p>
+
+      <div class="table-wrap" role="region" aria-label="Seasonal programs schedule table" tabindex="0">
+        <table>
+          <caption>Garden Programs by Season and Skill Level</caption>
+          <thead>
+            <tr>
+              <th scope="col">Season</th>
+              <th scope="col">Program</th>
+              <th scope="col">Skill level</th>
+              <th scope="col">Accessibility notes</th>
+              <th scope="col">Typical duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="2">Spring</th>
+              <td>Seed-starting lab</td>
+              <td>Beginner</td>
+              <td>Seated option available; printed steps in large text</td>
+              <td>60 minutes</td>
+            </tr>
+            <tr>
+              <td>Bed prep + soil testing</td>
+              <td>All levels</td>
+              <td>Wide-path stations; tools labeled with high-contrast tags</td>
+              <td>90 minutes</td>
+            </tr>
+
+            <tr>
+              <th scope="row" rowspan="2">Summer</th>
+              <td>Water-wise gardening</td>
+              <td>Intermediate</td>
+              <td>Hands-on demo with verbal description of each step</td>
+              <td>60 minutes</td>
+            </tr>
+            <tr>
+              <td>Donation harvest day</td>
+              <td>All levels</td>
+              <td>Task choices (light/medium); shaded rest area</td>
+              <td>120 minutes</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Fall</th>
+              <td colspan="2">Composting + leaf-mulch build (combined session)</td>
+              <td>Low-noise option; instructions posted and read aloud</td>
+              <td>75 minutes</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Winter</th>
+              <td>Planning + crop rotation</td>
+              <td>Beginner</td>
+              <td>Slide deck with high-contrast visuals; Q&amp;A breaks</td>
+              <td>45 minutes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> GreenTown Community Garden. Ready to join? Visit <a href="contact.html">Contact & signup</a>.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
