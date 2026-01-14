@@ -1,1 +1,113 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenTown Community Garden | About</title>
+  <meta name="description" content="About GreenTown Community Garden: our mission, accessibility, and how we welcome gardeners of all skill levels." />
+  <link rel="canonical" href="about.html" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="GreenTown Community Garden home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        GreenTown Garden
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About our garden</a>
+        <a href="services.html">Programs & services</a>
+        <a href="gallery.html">Gallery & video tour</a>
+        <a href="resources.html">Growing resources</a>
+        <a href="contact.html">Contact & signup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div class="surface">
+        <h1>About GreenTown</h1>
+        <p class="lede">
+          We’re a neighborhood-run garden that focuses on education, sustainability, and access—so more people can grow food confidently.
+        </p>
+
+    
+        <h2>How we support different visitors</h2>
+        <ol class="list-nested">
+          <li>
+            Accessible layout <span class="badge">mobility</span>
+            <ul class="sublist">
+              <li>Wide paths and clear signage</li>
+              <li>Seating near common work areas</li>
+              <li>Raised beds for easier reach</li>
+            </ul>
+          </li>
+          <li>
+            Clear information <span class="badge">readability</span>
+            <ul class="sublist">
+              <li>High-contrast text and focus indicators</li>
+              <li>Descriptive link text (no “click here”)</li>
+              <li>Captions and transcripts for video</li>
+            </ul>
+          </li>
+          <li>
+            Community support <span class="badge">beginners</span>
+            <ul class="sublist">
+              <li>Mentor volunteers during events</li>
+              <li>Printable guides in large text</li>
+              <li>Tool checkout with quick demos</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+
+      <figure>
+        <img
+          src="media/volunteers.webp"
+          width="1200"
+          height="800"
+          loading="lazy"
+          alt="Volunteers working together in a garden bed, wearing gloves and using small hand tools."
+        />
+        <figcaption>Volunteer days are collaborative—no experience required.</figcaption>
+      </figure>
+    </section>
+
+    <section class="surface" aria-labelledby="values">
+      <h2 id="values">Our values</h2>
+      <div class="card-grid" style="margin: 0;">
+        <div class="surface card">
+          <h2>Accessibility</h2>
+          <p>We design both the garden and the website so more people can participate.</p>
+        </div>
+        <div class="surface card">
+          <h2>Education</h2>
+          <p>We share practical skills: soil care, watering, composting, and harvest planning.</p>
+        </div>
+        <div class="surface card">
+          <h2>Sustainability</h2>
+          <p>We support pollinators, save water, and build healthy soil.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> GreenTown Community Garden. <a href="contact.html">Contact us</a> for questions.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
