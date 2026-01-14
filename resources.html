@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenTown Community Garden | Growing Resources</title>
+  <meta name="description" content="Growing resources and guides: planting tips, composting basics, and helpful external references with descriptive links." />
+  <link rel="canonical" href="resources.html" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="GreenTown Community Garden home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        GreenTown Garden
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About our garden</a>
+        <a href="services.html">Programs & services</a>
+        <a href="gallery.html">Gallery & video tour</a>
+        <a href="resources.html" aria-current="page">Growing resources</a>
+        <a href="contact.html">Contact & signup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div class="surface">
+        <h1>Growing resources</h1>
+        <p class="lede">
+          Quick references for beginners and returning gardeners. For event registration, use the
+          <a href="contact.html">Contact & signup page</a>.
+        </p>
+
+        <h2>Checklist for a strong start</h2>
+        <ul class="list-simple">
+          <li>Pick the right spot: sun, soil, and easy water access</li>
+          <li>Start small: 1–2 beds or containers</li>
+          <li>Use mulch to hold moisture and reduce weeds</li>
+        </ul>
+      </div>
+
+      <figure>
+        <img
+          src="media/garden-hero.webp"
+          width="1200"
+          height="800"
+          loading="lazy"
+          alt="Garden beds arranged in neat rows with a clear walkway and visible labels."
+        />
+        <figcaption>Organization (labels + paths) makes the space easier to use and maintain.</figcaption>
+      </figure>
+    </section>
+
+    <section class="surface" aria-labelledby="links">
+      <h2 id="links">Helpful external references</h2>
+      <p class="note">These links use descriptive text and open in a new tab.</p>
+
+      <ul class="list-simple">
+        <li>
+          <a href="https://www.epa.gov/recycle/composting-home" target="_blank" rel="noopener">
+            EPA guide to composting at home
+          </a>
+        </li>
+        <li>
+          <a href="https://www.usda.gov/topics/farming/gardening" target="_blank" rel="noopener">
+            USDA gardening and growing information
+          </a>
+        </li>
+        <li>
+          <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank" rel="noopener">
+            W3C introduction to web accessibility
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> GreenTown Community Garden. Return to <a href="index.html">Home</a>.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
