@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenTown Community Garden | Home</title>
+  <meta name="description" content="GreenTown Community Garden: volunteer days, workshops, and resources for growing food sustainably. Accessible, fast, and easy to navigate." />
+  <link rel="canonical" href="index.html" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="GreenTown Community Garden home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        GreenTown Garden
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About our garden</a>
+        <a href="services.html">Programs & services</a>
+        <a href="gallery.html">Gallery & video tour</a>
+        <a href="resources.html">Growing resources</a>
+        <a href="contact.html">Contact & signup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div class="surface">
+        <h1>Grow food, grow community, grow skills.</h1>
+        <p class="lede">
+          GreenTown Community Garden is a shared space where neighbors learn sustainable gardening,
+          support local pollinators, and donate fresh produce.
+        </p>
+
+        <h2>Quick highlights</h2>
+  
+        <ul class="list-simple">
+          <li>Weekly volunteer mornings (beginner-friendly)</li>
+          <li>Free seed library and seasonal workshops</li>
+          <li>Donation harvests for local food pantries</li>
+        </ul>
+
+        <div class="actions" aria-label="Primary calls to action">
+          <a class="surface" href="contact.html" style="text-decoration:none; display:inline-block;">Sign up to volunteer</a>
+          <a class="surface" href="resources.html" style="text-decoration:none; display:inline-block;">View growing guides</a>
+        </div>
+      </div>
+
+      <figure>
+        <img
+          src="media/garden-hero.webp"
+          width="1200"
+          height="800"
+          loading="lazy"
+          alt="Raised garden beds with leafy greens and a wide path between them in warm sunlight."
+        />
+        <figcaption>Our raised beds are designed with wide paths for easier access and mobility.</figcaption>
+      </figure>
+    </section>
+
+
+    <section aria-labelledby="home-sections">
+      <h2 id="home-sections">Explore the site</h2>
+
+      <div class="card-grid">
+        <div class="surface card">
+          <h2><a href="about.html">About our garden</a></h2>
+          <p>Learn our mission, accessibility goals, and how the space is organized.</p>
+        </div>
+
+        <div class="surface card">
+          <h2><a href="services.html">Programs & services</a></h2>
+          <p>See our workshops, donation days, and how to request a plot.</p>
+        </div>
+
+        <div class="surface card">
+          <h2><a href="gallery.html">Gallery & video tour</a></h2>
+          <p>Watch a short captioned video tour and browse photo highlights.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="surface" aria-labelledby="seo-note">
+      <h2 id="seo-note">Search-friendly structure</h2>
+      <p class="note">
+        This site uses clear headings, descriptive link text, image alt text, captions, and fast media formats (like WebP),
+        which helps both visitors and search engines understand the content.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> GreenTown Community Garden. Built with accessibility in mind.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
